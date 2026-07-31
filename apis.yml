@@ -1,8 +1,25 @@
 aid: novotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novotech.png
 name: Novotech
-description: 'Novotech is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Novotech is a global full-service Contract Research Organization (CRO) that partners
+  with biotech and pharmaceutical companies across every phase of clinical drug development. Its
+  services span clinical operations and project management, patient recruitment and site selection,
+  early-phase trials (notably in Australia), regulatory and medical consulting, biometrics and data
+  management, site management organization (SMO), and laboratory services. Novotech reports 4,450+
+  trials conducted across 7,260+ trial sites in 50+ countries, supporting 60+ drugs to market. Added
+  to the API Evangelist network as a healthcare portfolio company of Hongshan; it publishes no public
+  API, developer portal, or technical integration surface as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/novotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Contract Research Organization
+- Clinical Trials
+- Clinical Research
+- Drug Development
+- Biotech
+- Biometrics
+- Pharmaceutical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/novotech-domain-security.yml
 - type: Website
   url: https://novotech-cro.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
